@@ -1,0 +1,91 @@
+{
+  "name": "PicMePhotographer",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "lint": "tslint --project tsconfig.json",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.4.1",
+    "axios": "^0.18.0",
+    "cep-promise": "^3.0.7",
+    "geofirestore": "^3.3.1",
+    "geolib": "^3.0.4",
+    "native-base": "^2.12.1",
+    "npm": "^6.12.0",
+    "react": "16.8.3",
+    "react-native": "^0.59.10",
+    "react-native-camera": "^2.10.1",
+    "react-native-customized-image-picker": "^0.1.5",
+    "react-native-elements": "^1.1.0",
+    "react-native-firebase": "^5.4.2",
+    "react-native-gesture-handler": "^1.2.1",
+    "react-native-image-crop-picker": "^0.24.1",
+    "react-native-image-picker": "^0.27.2",
+    "react-native-masked-text": "^1.12.3",
+    "react-native-modal": "^11.0.2",
+    "react-native-multiple-choice": "0.0.8",
+    "react-native-progress-circle": "^2.0.1",
+    "react-native-ratings": "^6.5.0",
+    "react-native-step-indicator": "0.0.11",
+    "react-native-swipeout": "^2.3.6",
+    "react-navigation": "^3.11.0",
+    "react-redux": "^7.1.1",
+    "redux": "^4.0.4",
+    "redux-thunk": "^2.3.0",
+    "rn-sliding-button": "^1.1.5",
+    "socket.io-client": "^2.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.4.4",
+    "@babel/runtime": "7.4.4",
+    "@types/enzyme": "^3.9.1",
+    "@types/enzyme-adapter-react-16": "^1.0.5",
+    "@types/jest": "24.0.12",
+    "@types/react": "16.8.15",
+    "@types/react-native": "0.57.51",
+    "@types/react-redux": "^7.1.2",
+    "@types/react-test-renderer": "16.8.1",
+    "@types/socket.io-client": "^1.4.32",
+    "babel-jest": "24.7.1",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.12.1",
+    "jest": "24.7.1",
+    "metro-react-native-babel-preset": "0.54.0",
+    "react-dom": "^16.8.6",
+    "react-native-maps": "^0.24.2",
+    "react-test-renderer": "16.8.3",
+    "remote-redux-devtools": "^0.5.16",
+    "ts-jest": "^24.0.2",
+    "tslint": "^5.16.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-eslint-rules": "^5.4.0",
+    "tslint-react": "^4.0.0",
+    "typescript": "^3.4.5"
+  },
+  "jest": {
+    "preset": "react-native",
+    "transform": {
+      "^.+\\.js$": "<rootDir>/node_modules/react-native/jest/preprocessor.js",
+      "\\.(ts|tsx)$": "ts-jest"
+    },
+    "globals": {
+      "ts-jest": {
+        "tsConfig": "tsconfig.jest.json"
+      }
+    },
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$"
+  },
+  "rnpm": {
+    "assets": [
+      "./assets/fonts/"
+    ]
+  }
+}
